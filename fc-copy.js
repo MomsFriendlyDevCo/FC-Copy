@@ -27,7 +27,7 @@
 		navigator.clipboard.write([
 			new ClipboardItem({
 				'text/plain': new Blob([$(html).text()], {type: 'text/plain'}),
-				'text/html': new Blob(['<strong>Hello</strong> world'], {type: 'text/html'}),
+				'text/html': new Blob([html], {type: 'text/html'}),
 			})
 		]);
 	}
