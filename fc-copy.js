@@ -16,9 +16,7 @@
 
 		var html = '<div>'
 			+ '<a href="' + window.location.href + '">'
-				+ '<strong>'
-					+ $('.item-header-group .number_li .bt_color_box').text()
-				+ '</strong>'
+				+ $('.item-header-group .number_li .bt_color_box').text()
 			+ '</a>'
 			+ ' - '
 			+ $('.item-title-group .bt_view_title').text()
