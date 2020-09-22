@@ -2,6 +2,8 @@
 ==========================
 TamperMonkey script for [FreedCamp](https://freedcamp.com) which copies nicely formatted FC Issues.
 
+You will need a browser that supports the [ClipboardItem API](https://caniuse.com/mdn-api_clipboarditem) to copy rich text e.g. `Chrome>=87`
+
 
 Install via bookmarklet
 =======================
